@@ -1,5 +1,9 @@
 package com.example.maintenance;
 
+import org.springframework.stereotype.Component;
+
+@Component
+
 public class DonkeyKong implements Game {
 
     @Override

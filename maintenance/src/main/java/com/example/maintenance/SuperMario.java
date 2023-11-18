@@ -1,5 +1,9 @@
 package com.example.maintenance;
 
+import org.springframework.stereotype.Component;
+
+@Component
+
 public class SuperMario implements Game {
 
     // Additional fields or methods specific to SuperMario can be added here
