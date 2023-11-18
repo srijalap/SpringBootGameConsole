@@ -5,6 +5,7 @@ public class GameRunner {
     public static void main(String[] args) {
         runGame(new PacMan());
         runGame(new SuperMario());
+        runGame(new DonkeyKong());
     }
 
     public static void runGame(Game game) {
